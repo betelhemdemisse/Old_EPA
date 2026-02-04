@@ -1,0 +1,32 @@
+stages:
+  - build
+  - push
+
+variables:
+  DOCKER_DRIVER: overlay2
+
+before_script:
+  # Login to GitLab Container Registry
+  - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin "$CI_REGISTRY"
+
+# ---------------- BUILD BACKEND ----------------
+build-backend:
+  stage: build
+  tags:
+    - docker
+  script:
+    - echo "CI_REGISTRY_IMAGE=[$CI_REGISTRY_IMAGE]"
+    - echo "TAG=[$CI_REGISTRY_IMAGE/backend:$CI_COMMIT_SHA]"
+    - docker build -t "$CI_REGISTRY_IMAGE/backend:$CI_COMMIT_SHA" .
+  only:
+    - main
+
+# ---------------- PUSH BACKEND ----------------
+push-backend:
+  stage: push
+  tags:
+    - docker
+  script:
+    - docker push "$CI_REGISTRY_IMAGE/backend:$CI_COMMIT_SHA"
+  only:
+    - main

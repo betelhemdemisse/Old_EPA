@@ -1,0 +1,39 @@
+[2026-01-05T08:08:17.116Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-05T08:08:17.251Z] [ERROR] Failed to save failed SMS to DB: relation "SMs" does not exist
+[2026-01-05T08:11:47.471Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-05T08:11:47.546Z] [ERROR] Failed to save failed SMS to DB: relation "SMs" does not exist
+[2026-01-05T08:14:06.252Z] [INFO] Sending SMS via Jasmin to 0948120801
+[2026-01-05T08:14:27.316Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-05T08:14:27.515Z] [ERROR] Failed to save failed SMS to DB: relation "SMs" does not exist
+[2026-01-05T08:15:27.785Z] [INFO] Sending SMS via Jasmin to 0948120801
+[2026-01-05T08:15:48.864Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-05T08:15:49.062Z] [ERROR] Failed to save failed SMS to DB: relation "SMs" does not exist
+[2026-01-05T08:18:26.451Z] [INFO] Sending SMS via Jasmin to 0948120801
+[2026-01-05T08:18:47.528Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-05T08:18:47.641Z] [ERROR] Failed to save failed SMS to DB: relation "SMs" does not exist
+[2026-01-05T08:21:08.281Z] [INFO] Sending SMS via Jasmin to 0948120801
+[2026-01-05T08:21:29.354Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-05T08:21:29.562Z] [ERROR] Failed to save failed SMS to DB: column "createdAt" of relation "SMs" does not exist
+[2026-01-05T08:24:46.575Z] [INFO] Sending SMS via Jasmin to 0948120801
+[2026-01-05T08:25:07.725Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-05T08:27:10.295Z] [INFO] Sending SMS via Jasmin to 0948120801
+[2026-01-05T08:27:31.359Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-05T08:48:52.862Z] [INFO] Sending SMS via Jasmin to 0948120801
+[2026-01-05T08:49:13.939Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-05T08:50:43.678Z] [INFO] Sending SMS via Jasmin to +251948120801
+[2026-01-05T08:51:04.769Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-05T08:52:16.186Z] [INFO] Sending SMS via Jasmin to +251948120801
+[2026-01-05T08:52:37.334Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-12T06:58:33.325Z] [INFO] Sending SMS via Jasmin to +251948120801
+[2026-01-12T06:58:54.627Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-12T07:04:51.334Z] [INFO] Sending SMS via Jasmin to 0948120801
+[2026-01-12T07:05:12.441Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-12T07:06:20.117Z] [INFO] Sending SMS via Jasmin to 0948120801
+[2026-01-12T07:06:20.121Z] [INFO] Sending SMS via Jasmin to 2 +251948120801
+[2026-01-12T07:06:41.210Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-01-12T07:15:49.169Z] [INFO] Sending SMS via Jasmin to 0948120801
+[2026-01-12T07:15:49.171Z] [INFO] Sending SMS via Jasmin to 2 +251948120801
+[2026-01-12T07:16:10.314Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401
+[2026-02-03T12:47:41.997Z] [INFO] Sending SMS via Jasmin to 0948120801
+[2026-02-03T12:47:41.998Z] [INFO] Sending SMS via Jasmin to 2 +251948120801
+[2026-02-03T12:48:03.068Z] [ERROR] Failed to send SMS via Jasmin: connect ETIMEDOUT 10.100.40.44:1401

@@ -1,0 +1,60 @@
+services:
+backend:
+  build:
+    context: .
+    dockerfile: Dockerfile
+  container_name: epa-back
+  ports:
+    - "4032:5000"
+  volumes:
+    - .:/usr/src/app
+    - /usr/src/app/node_modules
+  environment:
+    NODE_ENV: development
+  command: node app.js
+
+  frontend:
+   build:
+    context: ./frontend
+    dockerfile: Dockerfile
+    container_name: epa-front
+    ports:
+    - "4034:5000"
+    volumes:
+    - ./frontend:/app
+    - /app/node_modules
+   environment:
+    NODE_ENV: development
+   command: npm run dev
+
+  pgadmin:
+    image: dpage/pgadmin4:8.6
+    container_name: pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin@admin.com
+    ports:
+      - "4033:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+      
+#  postgres:
+#   image: postgres
+#   container_name: postgres
+#   restart: always
+#   environment:
+#     POSTGRES_PASSWORD: postgres
+#   volumes:
+#     - epa_pgdata:/var/lib/postgresql/data
+#   networks:
+#     - epa_network
+#   ports:
+#     - "5433:5432" # PostgreSQL exposed for backend only
+# networks:
+#   epa_network:
+#     driver: bridge
+volumes:
+  pgadmin_data:
+# epa_pgdata:
+

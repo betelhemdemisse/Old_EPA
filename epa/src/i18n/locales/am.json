@@ -1,0 +1,65 @@
+{
+  "common": {
+    "loading": "በመጫን ላይ...",
+    "error": "ስህተት",
+    "success": "ስኬት",
+    "cancel": "ሰርዝ",
+    "save": "አስቀምጥ",
+    "delete": "ሰርዝ",
+    "edit": "አርትዕ",
+    "view": "ተመልክት",
+    "search": "ፈልግ",
+    "filter": "አጣራ",
+    "clear": "አጽዳ",
+    "submit": "ላክ",
+    "back": "ተመለስ",
+    "next": "ቀጣይ",
+    "previous": "ቀድሞ",
+    "close": "ዝጋ",
+    "open": "ክፈት",
+    "yes": "አዎ",
+    "no": "አይ"
+  },
+  "dashboard": {
+    "title": "ዳሽቦርድ",
+    "welcome": "እንኳን ደህና መጡ በንፁህ ኢትዮጵያ ፖርታል",
+    "totalReports": "ጠቅላላ ሪፖርቶች",
+    "activeCases": "ንቁ ጉዳዮች",
+    "resolvedCases": "የተፈቱ ጉዳዮች",
+    "pendingCases": "በመጠባበቅ ላይ ያሉ ጉዳዮች"
+  },
+  "navigation": {
+    "home": "መነሻ",
+    "reports": "ሪፖርቶች",
+    "cases": "ጉዳዮች",
+    "dashboard": "ዳሽቦርድ",
+    "settings": "ቅንብሮች",
+    "profile": "መገለጫ",
+    "logout": "ውጣ"
+  },
+  "filters": {
+    "status": "ሁኔታ",
+    "region": "ክልል",
+    "zone": "አካባቢ",
+    "woreda": "ወረዳ",
+    "city": "ከተማ",
+    "subcity": "ክፍለ ከተማ",
+    "pollutionCategory": "የብክለት አይነት",
+    "subPollutionCategory": "የብክለት ንፁህ አይነት",
+    "penaltyCategory": "የቅጣት አይነት"
+  },
+  "sidebar": {
+    "generalDashboard": "አጠቃላይ ዳሽቦርድ",
+    "userManagement": "የተጠቃሚ አስተያየት",
+    "staffUsers": "የሰራተኞች ተጠቃሚዎች",
+    "regionalCityUsers": "ክልላዊ/ከተማ ተጠቃሚዎች",
+    "customers": "የደንበኞች",
+    "rolesPermissions": "ሚናዎች እና ፈቃዶች",
+    "report": "ሪፖርት",
+    "reportList": "የሪፖርት ዝርዝር",
+    "archive": "መዝገበ ቃል",
+    "baseData": "መሰረታዊ ውሂብ",
+    "getReport": "ሪፖርት ያግኙ",
+    "generalReport": "አጠቃላይ ሪፖርት"
+  }
+}

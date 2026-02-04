@@ -1,0 +1,65 @@
+{
+  "common": {
+    "loading": "Fe'aa jira...",
+    "error": "Dogoggora",
+    "success": "Milkaa'ina",
+    "cancel": "Haqi",
+    "save": "Olkaa'i",
+    "delete": "Haqi",
+    "edit": "Gulaali",
+    "view": "Ilaali",
+    "search": "Barbaadi",
+    "filter": "Gargar baasi",
+    "clear": "Qulqulleessi",
+    "submit": "Ergi",
+    "back": "Duuba deebi'i",
+    "next": "Itti aanu",
+    "previous": "Kan dura",
+    "close": "Cufi",
+    "open": "Bani",
+    "yes": "Eeyyee",
+    "no": "Lakki"
+  },
+  "dashboard": {
+    "title": "Daashboordii",
+    "welcome": "Baga Nagaan Dhufte Clean Ethiopia Portal",
+    "totalReports": "Gabaalee Hunda",
+    "activeCases": "Qorannoowwan Hojiirra Jiran",
+    "resolvedCases": "Qorannoowwan Xumuraman",
+    "pendingCases": "Qorannoowwan Eegama Jiran"
+  },
+  "navigation": {
+    "home": "Mana",
+    "reports": "Gabaalee",
+    "cases": "Qorannoowwan",
+    "dashboard": "Daashboordii",
+    "settings": "Qindaa'inoota",
+    "profile": "Seensa",
+    "logout": "Ba'i"
+  },
+  "filters": {
+    "status": "Haalatuu",
+    "region": "Naannoo",
+    "zone": "Naannoo",
+    "woreda": "Woreda",
+    "city": "Magaalaa",
+    "subcity": "Magaalaa Xiqqaa",
+    "pollutionCategory": "Gosa Fageenyaa",
+    "subPollutionCategory": "Gosa Fageenyaa Xiqqaa",
+    "penaltyCategory": "Gosa Adabbii"
+  },
+  "sidebar": {
+    "generalDashboard": "Daashboordii Waliigalaa",
+    "userManagement": "Guddisuu Fayyadamaa",
+    "staffUsers": "Fayyadamaa Hojjettoota",
+    "regionalCityUsers": "Fayyadamaa Naannoo/Magaalaa",
+    "customers": "Maamila",
+    "rolesPermissions": "Gahee fi Hayyama",
+    "report": "Gabaasa",
+    "reportList": "Tarree Gabaasaa",
+    "archive": "Kuusaa",
+    "baseData": "Daataa Bu'uuraa",
+    "getReport": "Gabaasa Fudhachiisi",
+    "generalReport": "Gabaasa Waliigalaa"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "open": "Open",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to Clean Ethiopia Portal",
+    "totalReports": "Total Reports",
+    "activeCases": "Active Cases",
+    "resolvedCases": "Resolved Cases",
+    "pendingCases": "Pending Cases"
+  },
+  "navigation": {
+    "home": "Home",
+    "reports": "Reports",
+    "cases": "Cases",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "filters": {
+    "status": "Status",
+    "region": "Region",
+    "zone": "Zone",
+    "woreda": "Woreda",
+    "city": "City",
+    "subcity": "Subcity",
+    "pollutionCategory": "Pollution Category",
+    "subPollutionCategory": "Sub Pollution Category",
+    "penaltyCategory": "Penalty Category"
+  },
+  "sidebar": {
+    "generalDashboard": "General Dashboard",
+    "userManagement": "User Management",
+    "staffUsers": "Staff Users",
+    "regionalCityUsers": "Regional/City Users",
+    "customers": "Customers",
+    "rolesPermissions": "Roles & Permissions",
+    "report": "Report",
+    "reportList": "Report List",
+    "archive": "Archive",
+    "baseData": "Base Data",
+    "getReport": "Get Report",
+    "generalReport": "General Report"
+  }
+}
