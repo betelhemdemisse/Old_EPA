@@ -1,4 +1,4 @@
-import { Navigate, useLocation } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 export default function ProtectedRoute({
   isLoggedIn,
@@ -6,14 +6,8 @@ export default function ProtectedRoute({
   requiredPermissions = [],
   children,
 }) {
-  const location = useLocation();
-
   if (!isLoggedIn) {
-    return <Navigate to="/" replace state={{ from: location }} />;
-  }
-
-  if (!permissions || permissions.length === 0) {
-    return null;
+    return <Navigate to="/" replace />;
   }
 
   if (requiredPermissions.length === 0) {
@@ -25,7 +19,7 @@ export default function ProtectedRoute({
   );
 
   if (!hasPermission) {
-    return <Navigate to="/403" replace />;
+    return <Navigate to="/generaldashboard" replace />;
   }
 
   return children;
